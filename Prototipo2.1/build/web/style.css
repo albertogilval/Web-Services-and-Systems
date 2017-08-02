@@ -1,0 +1,676 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Author     : Juan Carlos
+    Author     : Patricia
+    Author     : Andres
+    Author     : Alberto
+*/
+
+div#img-top{
+	margin: auto;
+	width: 1300px;
+	height: 150px;
+	/*border-color: black;
+	border-width: 2px;
+	border-style: solid;*/
+	margin-bottom: 50px;
+}
+#tortuga{
+	margin-right:150px;
+}
+div#sesionC{
+	float: right;
+	padding: 15px;
+}
+div#sesion{
+	border-radius: 15px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	width: 100px;
+	height: 35px;
+	text-align: center;
+	padding-top: 15px;
+	margin-right: 20px;
+	margin-top: 10px;
+	color:black;
+}
+div#sesion:hover{
+	background-color: #27ce52;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #27CE52;
+	border: 2px solid black;
+}
+li {
+    float: left;
+    width: 200px;
+}
+li#buscador{
+	display: block;
+  text-align: left;
+  padding: 0 0px;
+  text-decoration: none;
+	float: right;
+	margin-right: 30px;
+	width: 250px;
+}
+li a {
+  display: block;
+  color: black;
+	font-weight:bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	border-right:0px solid black;
+}
+li a:hover {
+    background-color: #339C48;
+}
+#buscar{
+	background-color: grey;
+	border-radius: 5px;
+	margin-left: 5px;
+	float: right;
+	margin-top: 13px;
+}
+#lupa{
+	background-color: grey;
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+	margin-left: 5px;
+	float: right;
+	margin-top: 7px;
+}
+div#nom_img_perfil{
+	margin: auto;
+	height:350px;
+}
+div#imagen_perfil{
+	float: left;
+	margin: 20px;
+}
+div#nombre_perfil{
+	text-align: right;
+	float: right;
+	margin: auto;
+	height:350px;
+}
+ul#navPerfil {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #gray;
+	  border:2px solid black;
+}
+div#nom_img_perfil{
+	float: left;
+	margin-top: 20px;
+	width: 600px;
+	height:350px;
+  text-align: center;
+}
+#perfil{
+  width: 300px;
+  float: left;
+  margin:10px;
+}
+div#datosPerfil{
+	float: left;
+	margin: auto;
+	height:350px;
+}
+div#encabezadoPerfil{
+	float: left;
+	margin: auto;
+	height:50px;
+	width:904px;
+}
+div#contenidoPerfil{
+	float: left;
+	margin-top: 20px;
+	width: 900px;
+	height:350px;
+	margin-left:50px;
+  /*border: 2px solid black;*/
+}
+div#punt_rank{
+	float: left;
+	margin-left: 75px;
+    margin-top: 20px;
+	width:600px;
+	height:350px;
+}
+div#puntuacion{
+	float: right;
+	margin: 20px 20px;
+	width:250px;
+	height:250px;
+	font-size: 40pt;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+div.rank{
+	float: right;
+	margin: 20px 20px;
+	width:250px;
+	height:250px;
+	font-size: 40pt;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+.perfil{
+  width: 150px;
+  background-color: #27ce52;
+}
+.perfil:hover{
+  background-color: #339C48;
+}
+#selected{
+  background-color: #339C48;
+}
+.feed{
+  width: 900px;
+  height: 70px;
+	float: left;
+}
+.img_feed{
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-right: 10px;
+}
+.nombre{
+  height: 30px;
+}
+div.meh{
+	width:600px;
+	height:80px;
+	float:left;
+	font-weight:bold;
+	font-size:20px;
+	margin-left:20px;
+}
+#contenido{
+	/*posicion*/
+	width: 850px;
+	margin:20px 50px;
+	float: left;
+}
+#main-image{
+	width: 700px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+}
+#tags{
+	/*borde*/
+	border: solid;
+}
+#mainTag{
+	/*posicion*/
+	margin-right: 20px;
+}
+.tag{
+	/*posicion*/
+	margin: 5px;
+	width: 70px;
+	float: left;
+	/*borde*/
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5%;
+	text-align: center;
+}
+.puntuacion{
+	/*posicion*/
+	width: 40px;
+	height: 30px;
+	margin-left: 20px;
+	float: left;
+	/*borde*/
+	border: solid;
+	border-width: 3px;
+	border-radius: 8px;
+}
+img.puntuacion{
+	/*posicion*/
+	width: 30px;
+	height: 30px;
+}
+img.puntuacion:hover{
+	border-color: #339C48;
+}
+div#bocadillo{
+	/*posicion*/
+	width: 50px;
+	height: 30px;
+	margin-left: 40px;
+	padding: 2px;
+	float: left;
+	/*borde*/
+	border: solid;
+	border-radius: 8px;
+	border-width: 3px;
+
+	text-align: center;
+}
+#favorito{
+	/*posicion*/
+	width: 28px;
+	height: 28px;
+	margin-left: 40px;
+	padding: 2px;
+	float: left;
+	/*borde*/
+	border: solid;
+	border-radius: 8px;
+	border-width: 3px;
+}
+#favorito:hover {
+    border-color: #339C48;
+}
+img.compartir{
+	/*posicion*/
+	height: 30px;
+	margin-left: 30px;
+	float: left;
+	/*borde*/
+	border: solid;
+	border-radius: 8px;
+	border-width: 3px;
+}
+.compartir:hover{
+	border-color: green;
+}
+.comentario{
+	/*posicion*/
+	margin-top: 10px;
+	text-align: left;
+}
+.perfil_usuario{
+	/*posicion*/
+	height: 75px;
+	width: 75px;
+	margin-right: 10px;
+	float: left;
+	/*borde*/
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 50%;
+}
+.puntuacion-comentario{
+	/*posicion*/
+	width: 20px;
+	margin-left: 10px;
+	/*borde*/
+	border: solid;
+	border-radius: 8px;
+	border-width: 2px;
+}
+.puntuacion-comentario:hover{
+	border-color: #339C48;
+}
+#enviar{
+	height:150px;
+	margin-top:100px;
+	border-radius: 15%;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	text-align:center;
+}
+#enviar:hover{
+	background-color: #27ce52;
+}
+img#send{
+	width: 240px;
+	height:190px;
+}
+#derecha_ver{
+	float: left;
+	margin-left: 40px;
+}
+.destacados{
+	/*posicion*/
+	width: 250px;
+	height: 250px;
+	margin-right: 50px;
+	margin-top: 50px;
+	/*otros*/
+	text-align: center;
+	color: #338949;
+}
+h1#aportes-destacados{
+	color:black;
+}
+img.imagen-destacados{
+	width: 250px;
+}
+.descripcion{
+	/*posicion*/
+	margin-left: 25px;
+	margin-right: 25px;
+	color: black;
+	font-size: 20px;
+}
+#ranking{
+	width: 1000px;
+	margin: auto;
+	margin-top: 50px;
+	/*border: solid;
+	border-radius: 8px;
+	border-width: 2px;
+	border-color: black;*/
+}
+table, th, td{
+	border-bottom: 2px
+	solid black;
+	border-collapse: collapse;
+	text-align: left;
+}
+table{
+	border: 2px solid black;
+}
+th, td{
+	margin-right: 20px;
+}
+#ranking_table{
+	width: 1000px;
+}
+.img_usuario{
+	height: 30px;
+	margin-right: 15px;
+	border-radius: 50%;
+}
+td.posicion{
+	width: 90px;
+	padding-left: 10px;
+}
+td.img_ranking{
+	width:100px;
+}
+td.usuario{
+	width: 500px;
+	padding-left: 50px;
+}
+td.putnos{
+	width:100px;
+}
+td.logros{
+	width: 80px;
+	padding-left: 20px;
+}
+tr.podio{
+	font-weight: bold;
+	font-size: 20px;
+}
+img#gold{
+	border: 3px solid gold;
+}
+img#silver{
+	border: 3px solid silver;
+}
+img#bronze{
+	border: 3px solid #cd7f32;
+}
+div#parrafo{
+	width:870px;
+	text-align:justify;
+	height:200px;
+	float:left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#Imagen{
+	float:left;
+	padding-right:10px;
+	padding-bottom:20px;
+	width:300px;
+	height:180px;
+}
+span#titulo{
+	font-family:Verdana;
+	font-size:28px;
+	font-weight:bold;
+	text-decoration: underline;
+}
+p#cuerpo{font-family:Verdana;
+	font-size:16px;
+	padding-bottom:20px;
+	line-height:25px;
+	text-align:justify;
+}
+div#paginacion{
+	width:1330px;
+	text-align:center;
+	margin-top:40px;
+	margin-bottom:40px;
+	float:left;
+}
+button#pag_sig{
+	height:50px;
+	background-color:#339C48;
+}
+div#subir_aporte{
+	height:150px;
+	border-radius: 15%;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	text-align:center;
+}
+div#subir_aporte:hover{
+	background-color: #46E766;
+}
+img#nube{
+	padding-top:10px;
+}
+p#subir{
+	font-family:Verdana;
+	font-size:16px;
+	font-weight:bold;
+	line-height:25px;
+}
+div#izda{
+	float: left;
+	width:900px;
+}
+#derecha{
+	float: left;
+	width:350px;
+	margin-top:75px;
+	margin-left:40px;
+}
+div#destacados{
+	height:500px;
+	border-radius: 15%;
+	margin-top: 50px;
+	text-align:center;
+}
+div#parrafo_destacado{
+	margin: auto;
+	width:350px;
+	height:300px;
+}
+img#im_des{
+	padding-right:10px;
+	padding-bottom:20px;
+	width:300px;
+	height:180px;
+}
+span#titulo_des{
+	text-align:left;
+	font-family:Verdana;
+	font-size:24px;
+	font-weight:bold;
+}
+a{
+	color:black;
+}
+#inicia_sesion{
+	text-align: center;
+}
+#registro{
+	width:600px;
+	float:center;
+	margin-left:350px;
+	margin-right:350px;
+	text-align: center;
+	border-radius: 10%;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	margin-top:30px;
+	padding-bottom:15px;
+}
+input[type=submit] {
+			background-color: green;
+		    color: white;
+		    padding: 10px 32px;
+		    text-decoration: none;
+		   	margin:1%;
+		   	cursor: pointer;
+}
+div#olvido{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+div#boton{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#contrasenya{
+	margin-top: 50px;
+}
+#contenido_terminos{
+	width:900px;
+	text-align:justify;
+	margin-left: 50px;
+	font-size:16px;
+}
+#contenido_terminos{
+	width:900px;
+	text-align:justify;
+	margin-left: 50px;
+	font-size:16px;
+}
+#aporte{
+	width: 700px;
+	height: 500px;
+	float:left;
+	padding-top: 20px;
+	padding-left: 40px;
+}
+#submit {
+				background-color: green;
+		    color: white;
+		    padding: 10px 32px;
+		    text-decoration: none;
+		   	margin-top: 150px;
+				margin-left: 400px;
+		   	cursor: pointer;
+}
+input[name=titulo]{
+			position: absolute;
+			left: 200px;
+			width: 700px;
+
+	}
+input[name=etiquetas]{
+			position: absolute;
+			left: 200px;
+			width: 700px;
+
+	}
+ input#subir_imagen{
+	background-color:white;
+	position: absolute;
+	color:black;
+	left: 200px;
+	width: 700px;
+	padding: 0px 0px;
+	text-decoration: none;
+	margin: 0px 0px;
+	cursor: pointer;
+}
+#tipoTema{
+	position: absolute;
+	left: 200px;
+	width: 200px;
+
+	}
+textarea {
+			position: absolute;
+			left: 200px;
+	    width: 700px;
+	    height: 150px;
+	    padding: 12px 20px;
+	    box-sizing: border-box;
+	    border: 2px solid #ccc;
+	    border-radius: 4px;
+	    font-size: 16px;
+	    resize: none;
+}
+
+.formulario{
+		color:green;
+}
+#registro2{
+	width:600px;
+	float:center;
+	margin-left:350px;
+	margin-right:350px;
+	text-align: center;
+	border-radius: 10%;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	margin-top:40px;
+	padding-bottom:25px;
+}
+div#checkbox{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+div#boton{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#registrate{
+	text-align: center;
+}
+
+input#subir_file{
+	float:left;
+	margin-top:0px;
+	margin-bottom:40px;
+}
+
+img#profile{
+  width: 60px;
+  height: 60px;
+  float: left;
+}
+
+div#profile{
+	margin: auto;
+	width:100%;
+	height:350px;
+}
+
+div#campo-confirmar{
+	margin-top:80px;
+}
